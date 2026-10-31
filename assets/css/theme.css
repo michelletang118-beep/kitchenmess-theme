@@ -1,0 +1,270 @@
+/*
+ * Kitchenmess component styles.
+ * Colours, fonts and sizes come from theme.json presets (--wp--preset--*).
+ * Design: blush-paper page, ink type, one plum accent, pink hairlines,
+ * light serif headlines with italics, thin rules instead of boxes.
+ */
+
+:root {
+	--km-blush: var(--wp--preset--color--blush);
+	--km-card: var(--wp--preset--color--card);
+	--km-ink: var(--wp--preset--color--ink);
+	--km-muted: var(--wp--preset--color--muted);
+	--km-line: var(--wp--preset--color--line);
+	--km-plum: var(--wp--preset--color--plum);
+	--km-pink: var(--wp--preset--color--pink);
+	--km-display: var(--wp--preset--font-family--display);
+	--km-body: var(--wp--preset--font-family--body);
+}
+
+body { -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, h6 { text-wrap: balance; }
+:where(h1, h2, h3, h4) em { color: var(--km-plum); }
+.has-ink-background-color :where(h1, h2, h3, h4) em,
+.has-plum-background-color :where(h1, h2, h3, h4) em { color: inherit; }
+:focus-visible { outline: 2px solid var(--km-plum); outline-offset: 3px; }
+img { height: auto; }
+
+/* ---------- Small caps label ---------- */
+.is-style-label,
+.km-label {
+	font-family: var(--km-body);
+	font-size: var(--wp--preset--font-size--label);
+	font-weight: 400;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	color: var(--km-muted);
+	line-height: 1.6;
+}
+.has-plum-background-color .is-style-label,
+.has-ink-background-color .is-style-label { color: rgba(255, 255, 255, 0.7); }
+.is-style-label.km-rule { display: flex; align-items: center; gap: 1rem; }
+.is-style-label.km-rule::after { content: ""; width: 80px; height: 1px; background: var(--km-pink); opacity: 0.6; }
+
+/* ---------- Buttons ---------- */
+.wp-block-button.is-style-outline > .wp-block-button__link {
+	background: transparent;
+	color: var(--km-ink);
+	border: 1px solid var(--km-ink);
+}
+.wp-block-button.is-style-outline > .wp-block-button__link:hover {
+	background: var(--km-ink);
+	color: var(--km-blush);
+}
+.has-plum-background-color .wp-block-button.is-style-outline > .wp-block-button__link,
+.has-ink-background-color .wp-block-button.is-style-outline > .wp-block-button__link {
+	color: #fff;
+	border-color: rgba(255, 255, 255, 0.6);
+}
+.has-plum-background-color .wp-block-button.is-style-outline > .wp-block-button__link:hover,
+.has-ink-background-color .wp-block-button.is-style-outline > .wp-block-button__link:hover {
+	background: #fff;
+	color: var(--km-ink);
+}
+
+/* ---------- Header ---------- */
+.km-header { border-bottom: 1px solid var(--km-line); }
+.km-logo img { height: 72px; width: auto; }
+.km-footer-logo img { width: 110px; height: auto; }
+@media (max-width: 600px) { .km-logo img { height: 52px; } }
+.km-header .wp-block-navigation a:hover { color: var(--km-plum); }
+.km-header .wp-block-navigation .km-nav-cta a {
+	background: var(--km-ink);
+	color: var(--km-blush);
+	padding: 0.7rem 1.1rem;
+}
+.km-header .wp-block-navigation .km-nav-cta a:hover { background: var(--km-plum); color: #fff; }
+
+/* ---------- Hairline box, hairline rows ---------- */
+.is-style-hairline {
+	border-top: 1px solid var(--km-line);
+	border-bottom: 1px solid var(--km-line);
+}
+.wp-block-columns.is-style-ruled { gap: 0 !important; border-top: 1px solid var(--km-line); border-bottom: 1px solid var(--km-line); }
+.wp-block-columns.is-style-ruled > .wp-block-column { padding: 1.5rem; }
+.wp-block-columns.is-style-ruled > .wp-block-column + .wp-block-column { border-left: 1px solid var(--km-line); }
+@media (max-width: 781px) {
+	.wp-block-columns.is-style-ruled > .wp-block-column + .wp-block-column { border-left: 0; border-top: 1px solid var(--km-line); }
+}
+
+/* ---------- Quick answer (AEO summary under the title) ---------- */
+.is-style-answer {
+	border-left: 1px solid var(--km-pink);
+	padding-left: 1.5rem;
+	font-family: var(--km-display);
+	font-style: italic;
+	font-size: 1.5rem;
+	line-height: 1.45;
+	color: #34332f;
+}
+.is-style-answer p { margin: 0; }
+
+/* ---------- Dash list ---------- */
+.is-style-dash { list-style: none; padding-left: 0; }
+.is-style-dash li { padding: 0.25rem 0; }
+.is-style-dash li::before { content: "—"; color: var(--km-pink); margin-right: 0.6rem; }
+
+/* ---------- Stats row (media kit) ---------- */
+.km-stats { border-top: 1px solid var(--km-ink); border-bottom: 1px solid var(--km-line); }
+.km-stats > .wp-block-column { text-align: center; padding: 1.75rem 1rem; }
+.km-stats > .wp-block-column + .wp-block-column { border-left: 1px solid var(--km-line); }
+.km-stats .km-stat {
+	font-family: var(--km-display);
+	font-weight: 300;
+	font-size: clamp(2.375rem, 4vw, 3.5rem);
+	line-height: 1.1;
+	margin: 0.5rem 0 0.25rem;
+	font-variant-numeric: lining-nums tabular-nums;
+}
+@media (max-width: 781px) {
+	.km-stats > .wp-block-column + .wp-block-column { border-left: 0; border-top: 1px solid var(--km-line); }
+}
+
+/* ---------- Packages grid ---------- */
+.km-packages { gap: 0 !important; border-top: 1px solid var(--km-line); }
+.km-packages > .wp-block-column { padding: 2.25rem 2rem; border-bottom: 1px solid var(--km-line); display: flex; flex-direction: column; }
+.km-packages > .wp-block-column + .wp-block-column { border-left: 1px solid var(--km-line); }
+.km-packages .km-featured { background: var(--km-card); }
+.km-packages .km-featured .is-style-label { color: var(--km-plum); }
+.km-packages .km-price { margin-top: auto; padding-top: 1rem; font-size: 0.8125rem; letter-spacing: 0.06em; }
+@media (max-width: 781px) {
+	.km-packages > .wp-block-column + .wp-block-column { border-left: 0; }
+}
+
+/* ---------- Numbered steps ("How it works") ---------- */
+.km-steps { counter-reset: km-step; }
+.km-steps > .wp-block-column { counter-increment: km-step; }
+.km-steps > .wp-block-column::before {
+	content: "0" counter(km-step);
+	display: block;
+	font-family: var(--km-display);
+	font-style: italic;
+	font-size: 2.75rem;
+	line-height: 1;
+	color: var(--km-pink);
+	margin-bottom: 0.75rem;
+}
+
+/* ---------- Gear shelf (affiliate products) ---------- */
+.km-gear .wp-block-image img { aspect-ratio: 3 / 4; object-fit: cover; width: 100%; }
+.km-gear .km-spec {
+	font-size: var(--wp--preset--font-size--label);
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #f9c3db;
+	margin: 0;
+}
+.km-gear p { font-size: 0.9375rem; line-height: 1.6; }
+.km-disclose { font-size: 0.8125rem; font-style: italic; opacity: 0.8; }
+.km-aff-note {
+	font-size: 0.8125rem;
+	font-style: italic;
+	color: var(--km-muted);
+	border-top: 1px solid var(--km-line);
+	border-bottom: 1px solid var(--km-line);
+	padding: 0.75rem 0;
+}
+
+/* ---------- Recipe cards in query loops ---------- */
+.km-cards .wp-block-post-featured-image img { aspect-ratio: 4 / 5; object-fit: cover; }
+.km-cards .wp-block-post-title a { text-decoration: none; color: var(--km-ink); transition: color 0.2s; }
+.km-cards .wp-block-post-title a:hover { color: var(--km-plum); }
+
+/* ---------- FAQ (core/details) ---------- */
+.wp-block-details { padding: 1.25rem 0; }
+.wp-block-details summary {
+	font-family: var(--km-display);
+	font-size: 1.5625rem;
+	cursor: pointer;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+.wp-block-details summary::-webkit-details-marker { display: none; }
+.wp-block-details summary::after { content: "+"; color: var(--km-pink); font-family: var(--km-body); font-weight: 300; }
+.wp-block-details[open] summary::after { content: "−"; }
+
+/* ---------- Author box ---------- */
+.km-author { border-top: 1px solid var(--km-line); border-bottom: 1px solid var(--km-line); }
+.km-author .wp-block-image img,
+.km-author .wp-block-avatar img { border-radius: 50%; }
+
+/* ---------- Forms (contact and newsletter plugins) ---------- */
+.km-form input[type="text"],
+.km-form input[type="email"],
+.km-form select,
+.km-form textarea {
+	width: 100%;
+	font: inherit;
+	padding: 0.625rem 0;
+	border: 0;
+	border-bottom: 1px solid currentColor;
+	border-radius: 0;
+	background: transparent;
+	color: inherit;
+}
+
+/* ---------- WP Recipe Maker card ---------- */
+.wprm-recipe-container .wprm-recipe {
+	background: var(--km-card);
+	border: 1px solid var(--km-line);
+	outline: 1px solid var(--km-line);
+	outline-offset: 6px;
+	padding: 2.5rem;
+	margin: 4rem 0;
+	font-family: var(--km-body);
+	color: var(--km-ink);
+}
+.wprm-recipe .wprm-recipe-name,
+.wprm-recipe .wprm-recipe-header {
+	font-family: var(--km-display) !important;
+	font-weight: 400 !important;
+}
+.wprm-recipe .wprm-recipe-name { font-size: 2.875rem !important; line-height: 1.08; }
+.wprm-recipe .wprm-recipe-header { font-size: 1.75rem !important; }
+.wprm-recipe .wprm-recipe-ingredient { border-bottom: 1px solid var(--km-line); padding: 0.5rem 0; list-style: none; margin-left: 0 !important; }
+.wprm-recipe .wprm-recipe-ingredient-amount,
+.wprm-recipe .wprm-recipe-ingredient-unit {
+	font-family: var(--km-display);
+	font-weight: 500;
+	font-size: 1.1875rem;
+	color: var(--km-plum);
+}
+.wprm-recipe .wprm-recipe-instruction { padding: 0.5rem 0; }
+.wprm-recipe .wprm-recipe-instructions { counter-reset: km-ins; }
+.wprm-recipe .wprm-recipe-time,
+.wprm-recipe .wprm-recipe-servings { font-family: var(--km-display); font-size: 1.75rem; }
+.wprm-recipe .wprm-recipe-details-label,
+.wprm-recipe .wprm-recipe-meta-container .wprm-recipe-block-container .wprm-recipe-details-label {
+	font-family: var(--km-body);
+	font-size: var(--wp--preset--font-size--label);
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--km-muted);
+}
+.wprm-recipe .wprm-recipe-rating svg path,
+.wprm-recipe .wprm-recipe-rating svg polygon { fill: var(--km-pink) !important; }
+.wprm-recipe a.wprm-recipe-link,
+.wprm-recipe .wprm-recipe-print,
+.wprm-recipe .wprm-recipe-jump {
+	border-radius: 0 !important;
+	font-family: var(--km-body);
+	font-size: 0.6875rem;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+.wprm-recipe .wprm-recipe-equipment-container { border-top: 1px solid var(--km-line); padding-top: 1.5rem; }
+.wprm-recipe .wprm-recipe-equipment-name a { color: var(--km-plum); }
+.wprm-recipe .wprm-nutrition-label-container { border-top: 1px solid var(--km-line); padding-top: 1rem; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--km-muted); }
+@media (max-width: 600px) {
+	.wprm-recipe-container .wprm-recipe { padding: 1.25rem; }
+}
+
+/* ---------- Comments ---------- */
+.wp-block-comment-template li { border-top: 1px solid var(--km-line); padding-top: 1.25rem; }
+
+/* ---------- Motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+	* { transition: none !important; animation: none !important; }
+}
