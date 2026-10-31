@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Your <em>questions</em></h2>
+<h2 class="wp-block-heading">You <em>asked</em></h2>
 <!-- /wp:heading -->
 <!-- wp:details {"showContent":true} -->
 <details class="wp-block-details" open><summary>Can I use frozen scallops?</summary>

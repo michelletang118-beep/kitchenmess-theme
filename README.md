@@ -2,7 +2,8 @@
 
 A light, fast block theme for [kitchenmess.com](https://www.kitchenmess.com), built to win brand partnerships and earn from affiliate links.
 
-- **Brand:** Kitchenmess pink `#F287B7` and plum `#763978` from the 2016 brand book, the brush-script logo and round KM icon, Montserrat (the free stand-in for Gotham) for text and Cormorant Garamond for elegant headlines.
+- **Brand:** Kitchenmess pink `#F287B7` and plum `#763978` from the 2016 brand book, the brush-script logo and round KM icon. Bold Montserrat (the free stand-in for Gotham) for headlines and text, with one italic Cormorant Garamond word per headline for a touch of elegance.
+- **Look:** sleek and sassy. Pill buttons, rounded and arched photos, a scrolling pink ticker, a tilted "New recipe every fortnight" sticker, dark and pink rounded panels.
 - **Fast:** no page builder, no jQuery, fonts and logos served from the theme itself, emoji scripts removed.
 - **Recipe-first:** works with WP Recipe Maker (styled to match), shows a quick answer under each recipe title, has an FAQ pattern and an author box on every post.
 - **Brand deals:** a full Work With Me media kit page, a Kitchen tools affiliate page, a gear shelf, and an affiliate disclosure page.
@@ -37,6 +38,11 @@ Always try a new theme on a staging copy first. Most hosts (SiteGround, Kinsta, 
 | Kitchen tools | New page with slug `kitchen-tools`, template **Wide page (no title)**, pattern **Kitchen tools page**. Paste your affiliate links into the buttons. |
 | Affiliate disclosure | New page with slug `affiliate-disclosure`, pattern **Affiliate disclosure page**. |
 | Recipes | The menu links to `/recipes/`. Either set **Settings → Reading → Posts page** to a page called Recipes, or change the menu link. |
+
+## Headline tricks
+
+- Make a word *italic* in any heading and it turns into the plum serif accent ("Cook by *craving*").
+- Select a word in a big heading and use **Highlight** to get the pink marker stroke ("*Seriously* good food").
 
 ## Writing a recipe post
 

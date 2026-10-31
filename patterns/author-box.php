@@ -6,8 +6,8 @@
  * Description: Author bio with credentials, shown under every post. Helps search and AI engines trust the recipe.
  */
 ?>
-<!-- wp:group {"className":"km-author","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group km-author" style="margin-top:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
+<!-- wp:group {"className":"km-author","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group km-author" style="margin-top:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 	<!-- wp:columns {"verticalAlignment":"center","isStackedOnMobile":false} -->
 	<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile">
 		<!-- wp:column {"verticalAlignment":"center","width":"120px"} -->

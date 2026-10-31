@@ -11,9 +11,14 @@
 	<!-- wp:heading -->
 	<h2 class="wp-block-heading">Cook by <em>craving</em></h2>
 	<!-- /wp:heading -->
-	<!-- wp:paragraph {"className":"is-style-label","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
-	<p class="is-style-label" style="margin-bottom:var(--wp--preset--spacing--40)"><a href="/category/seafood/">Seafood at home</a> · <a href="/category/asian/">Asian classics</a> · <a href="/category/gluten-free/">Gluten-free</a> · <a href="/category/nutrition-articles/">Nutrition</a></p>
-	<!-- /wp:paragraph -->
+	<!-- wp:buttons {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"},"blockGap":"0.625rem"}}} -->
+	<div class="wp-block-buttons" style="margin-bottom:var(--wp--preset--spacing--40)">
+		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/seafood/">Seafood at home</a></div><!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/asian/">Asian classics</a></div><!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/gluten-free/">Gluten-free</a></div><!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/nutrition-articles/">Nutrition</a></div><!-- /wp:button -->
+	</div>
+	<!-- /wp:buttons -->
 	<!-- wp:query {"queryId":3,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false}} -->
 	<div class="wp-block-query">
 		<!-- wp:post-template {"className":"km-cards","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":3}} -->

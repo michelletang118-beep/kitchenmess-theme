@@ -6,7 +6,7 @@
  * Description: Six partnership packages in two rows. Set your own prices.
  */
 ?>
-<!-- wp:heading {"align":"wide"} --><h2 class="wp-block-heading alignwide">Ways to work <em>together</em></h2><!-- /wp:heading -->
+<!-- wp:heading {"align":"wide"} --><h2 class="wp-block-heading alignwide">Ways to <em>work together</em></h2><!-- /wp:heading -->
 <!-- wp:paragraph {"align":"wide","textColor":"muted"} --><p class="alignwide has-muted-color has-text-color">Every package includes a recipe that keeps earning search traffic long after the campaign.</p><!-- /wp:paragraph -->
 <!-- wp:columns {"align":"wide","className":"km-packages"} -->
 <div class="wp-block-columns alignwide km-packages">

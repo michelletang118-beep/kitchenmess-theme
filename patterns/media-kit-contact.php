@@ -6,13 +6,13 @@
  * Description: Dark contact band. Add your contact form plugin's block in the right column.
  */
 ?>
-<!-- wp:group {"align":"full","anchor":"contact","backgroundColor":"ink","textColor":"white","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1160px"}} -->
-<div id="contact" class="wp-block-group alignfull has-white-color has-ink-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","anchor":"contact","className":"km-panel","backgroundColor":"plum","textColor":"white","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"bottom":"var:preset|spacing|30"}}},"layout":{"type":"default"}} -->
+<div id="contact" class="wp-block-group alignwide km-panel has-white-color has-plum-background-color has-text-color has-background" style="margin-bottom:var(--wp--preset--spacing--30);padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-columns">
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:heading {"textColor":"white"} --><h2 class="wp-block-heading has-white-color has-text-color">Let's cook something <em>together</em></h2><!-- /wp:heading -->
+			<!-- wp:heading {"textColor":"white"} --><h2 class="wp-block-heading has-white-color has-text-color">Let's make a <em>delicious</em> mess</h2><!-- /wp:heading -->
 			<!-- wp:paragraph --><p>Email me at <a href="mailto:michelle@kitchenmess.com" style="color:inherit">michelle@kitchenmess.com</a> or use the form.</p><!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

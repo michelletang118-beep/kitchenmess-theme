@@ -1,270 +1,372 @@
 /*
  * Kitchenmess component styles.
  * Colours, fonts and sizes come from theme.json presets (--wp--preset--*).
- * Design: blush-paper page, ink type, one plum accent, pink hairlines,
- * light serif headlines with italics, thin rules instead of boxes.
+ * Design: sleek white and near-black, Kitchenmess pink for attitude and plum for depth.
+ * Heavy tight Montserrat headlines with one italic serif word (wrap it in <em>),
+ * pill buttons, rounded and arched photos, a pink ticker and a tilted sticker.
  */
 
 :root {
-	--km-blush: var(--wp--preset--color--blush);
+	--km-base: var(--wp--preset--color--base);
 	--km-card: var(--wp--preset--color--card);
 	--km-ink: var(--wp--preset--color--ink);
 	--km-muted: var(--wp--preset--color--muted);
 	--km-line: var(--wp--preset--color--line);
 	--km-plum: var(--wp--preset--color--plum);
 	--km-pink: var(--wp--preset--color--pink);
-	--km-display: var(--wp--preset--font-family--display);
 	--km-body: var(--wp--preset--font-family--body);
+	--km-serif: var(--wp--preset--font-family--accent);
+	--km-r: 22px;
 }
 
 body { -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5, h6 { text-wrap: balance; }
-:where(h1, h2, h3, h4) em { color: var(--km-plum); }
-.has-ink-background-color :where(h1, h2, h3, h4) em,
-.has-plum-background-color :where(h1, h2, h3, h4) em { color: inherit; }
-:focus-visible { outline: 2px solid var(--km-plum); outline-offset: 3px; }
 img { height: auto; }
+:focus-visible { outline: 3px solid var(--km-pink); outline-offset: 3px; }
 
-/* ---------- Small caps label ---------- */
+/* The elegant touch: an italic serif word inside bold headlines. */
+:where(h1, h2, h3, .wp-block-post-title) em {
+	font-family: var(--km-serif);
+	font-style: italic;
+	font-weight: 500;
+	letter-spacing: -0.01em;
+	color: var(--km-plum);
+}
+.has-ink-background-color :where(h1, h2, h3) em,
+.has-plum-background-color :where(h1, h2, h3) em { color: var(--km-pink); }
+.has-pink-background-color :where(h1, h2, h3) em { color: var(--km-ink); }
+
+/* Pink highlighter stroke: wrap a word in <mark> in a heading. */
+:where(h1, h2) mark {
+	background: linear-gradient(transparent 62%, var(--km-pink) 62% 92%, transparent 92%);
+	color: inherit;
+}
+
+/* ---------- Label ---------- */
 .is-style-label,
 .km-label {
 	font-family: var(--km-body);
 	font-size: var(--wp--preset--font-size--label);
-	font-weight: 400;
-	letter-spacing: 0.22em;
+	font-weight: 600;
+	letter-spacing: 0.18em;
 	text-transform: uppercase;
 	color: var(--km-muted);
 	line-height: 1.6;
 }
 .has-plum-background-color .is-style-label,
-.has-ink-background-color .is-style-label { color: rgba(255, 255, 255, 0.7); }
-.is-style-label.km-rule { display: flex; align-items: center; gap: 1rem; }
-.is-style-label.km-rule::after { content: ""; width: 80px; height: 1px; background: var(--km-pink); opacity: 0.6; }
+.has-ink-background-color .is-style-label { color: var(--km-pink); }
+.has-pink-background-color .is-style-label { color: var(--km-ink); }
+.is-style-label.km-rule {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.6rem;
+	background: var(--km-card);
+	color: var(--km-plum);
+	padding: 0.35rem 0.9rem;
+	border-radius: 999px;
+}
+.is-style-label.km-rule::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--km-pink); }
 
 /* ---------- Buttons ---------- */
+.wp-block-button__link { transition: transform 0.15s, background 0.2s, color 0.2s, border-color 0.2s; }
+.wp-block-button__link:hover { transform: translateY(-2px); }
+.wp-block-button:not(.is-style-outline) > .wp-block-button__link::after { content: " →"; }
 .wp-block-button.is-style-outline > .wp-block-button__link {
 	background: transparent;
 	color: var(--km-ink);
-	border: 1px solid var(--km-ink);
+	border: 2px solid var(--km-ink);
 }
-.wp-block-button.is-style-outline > .wp-block-button__link:hover {
-	background: var(--km-ink);
-	color: var(--km-blush);
-}
+.wp-block-button.is-style-outline > .wp-block-button__link:hover { background: var(--km-ink); color: #fff; }
 .has-plum-background-color .wp-block-button.is-style-outline > .wp-block-button__link,
-.has-ink-background-color .wp-block-button.is-style-outline > .wp-block-button__link {
-	color: #fff;
-	border-color: rgba(255, 255, 255, 0.6);
-}
+.has-ink-background-color .wp-block-button.is-style-outline > .wp-block-button__link { color: #fff; border-color: #fff; }
 .has-plum-background-color .wp-block-button.is-style-outline > .wp-block-button__link:hover,
-.has-ink-background-color .wp-block-button.is-style-outline > .wp-block-button__link:hover {
-	background: #fff;
-	color: var(--km-ink);
-}
+.has-ink-background-color .wp-block-button.is-style-outline > .wp-block-button__link:hover { background: var(--km-pink); border-color: var(--km-pink); color: var(--km-ink); }
+.has-plum-background-color .wp-block-button:not(.is-style-outline) > .wp-block-button__link,
+.has-ink-background-color .wp-block-button:not(.is-style-outline) > .wp-block-button__link { background: var(--km-pink); border-color: var(--km-pink); color: var(--km-ink); }
+.has-plum-background-color .wp-block-button:not(.is-style-outline) > .wp-block-button__link:hover,
+.has-ink-background-color .wp-block-button:not(.is-style-outline) > .wp-block-button__link:hover { background: #fff; border-color: #fff; }
+.has-pink-background-color .wp-block-button:not(.is-style-outline) > .wp-block-button__link:hover { background: #fff; border-color: #fff; }
 
 /* ---------- Header ---------- */
-.km-header { border-bottom: 1px solid var(--km-line); }
-.km-logo img { height: 72px; width: auto; }
-.km-footer-logo img { width: 110px; height: auto; }
-@media (max-width: 600px) { .km-logo img { height: 52px; } }
-.km-header .wp-block-navigation a:hover { color: var(--km-plum); }
-.km-header .wp-block-navigation .km-nav-cta a {
+.km-header { position: relative; z-index: 5; }
+.km-logo img { height: 64px; width: auto; border-radius: 0 !important; }
+.km-footer-logo img { width: 96px; height: auto; border-radius: 0 !important; }
+@media (max-width: 600px) { .km-logo img { height: 50px; } }
+.km-header .wp-block-navigation-item:not(.km-nav-cta) > a { position: relative; text-decoration: none; }
+.km-header .wp-block-navigation-item:not(.km-nav-cta) > a::after {
+	content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 2px;
+	background: var(--km-pink); transform: scaleX(0); transform-origin: left; transition: transform 0.2s;
+}
+.km-header .wp-block-navigation-item:not(.km-nav-cta) > a:hover::after { transform: scaleX(1); }
+.km-header .km-nav-cta > a {
 	background: var(--km-ink);
-	color: var(--km-blush);
-	padding: 0.7rem 1.1rem;
+	color: #fff !important;
+	padding: 0.6rem 1.1rem;
+	border-radius: 999px;
 }
-.km-header .wp-block-navigation .km-nav-cta a:hover { background: var(--km-plum); color: #fff; }
+.km-header .km-nav-cta > a:hover { background: var(--km-pink); color: var(--km-ink) !important; }
 
-/* ---------- Hairline box, hairline rows ---------- */
-.is-style-hairline {
-	border-top: 1px solid var(--km-line);
-	border-bottom: 1px solid var(--km-line);
+/* ---------- Shapes ---------- */
+.km-arch img { border-radius: 200px 200px var(--km-r) var(--km-r) !important; }
+.km-arch-right img { border-radius: var(--km-r) 200px var(--km-r) var(--km-r) !important; }
+.km-panel { border-radius: calc(var(--km-r) * 2); }
+.km-card-soft { border-radius: calc(var(--km-r) * 1.4); }
+
+/* ---------- Hero sticker ---------- */
+.km-hero-photo { position: relative; }
+.km-sticker {
+	position: absolute;
+	top: 28px;
+	left: -34px;
+	width: 132px;
+	height: 132px;
+	border-radius: 50%;
+	background: var(--km-pink);
+	color: var(--km-ink);
+	display: grid;
+	place-items: center;
+	text-align: center;
+	padding: 14px;
+	transform: rotate(-12deg);
+	box-shadow: 0 10px 30px rgba(118, 57, 120, 0.25);
+	z-index: 2;
 }
-.wp-block-columns.is-style-ruled { gap: 0 !important; border-top: 1px solid var(--km-line); border-bottom: 1px solid var(--km-line); }
-.wp-block-columns.is-style-ruled > .wp-block-column { padding: 1.5rem; }
-.wp-block-columns.is-style-ruled > .wp-block-column + .wp-block-column { border-left: 1px solid var(--km-line); }
-@media (max-width: 781px) {
-	.wp-block-columns.is-style-ruled > .wp-block-column + .wp-block-column { border-left: 0; border-top: 1px solid var(--km-line); }
+.km-sticker p { margin: 0; font-weight: 800; font-size: 15px; line-height: 1.05; }
+.km-sticker em { display: block; font-family: var(--km-serif); font-weight: 500; font-size: 22px; }
+@media (max-width: 781px) { .km-sticker { left: auto; right: 12px; top: -20px; width: 108px; height: 108px; } .km-sticker p { font-size: 12px; } }
+
+/* ---------- Ticker ---------- */
+.km-ticker {
+	overflow: hidden;
+	white-space: nowrap;
+	border-top: 2px solid var(--km-ink);
+	border-bottom: 2px solid var(--km-ink);
 }
-
-/* ---------- Quick answer (AEO summary under the title) ---------- */
-.is-style-answer {
-	border-left: 1px solid var(--km-pink);
-	padding-left: 1.5rem;
-	font-family: var(--km-display);
-	font-style: italic;
-	font-size: 1.5rem;
-	line-height: 1.45;
-	color: #34332f;
+.km-ticker-track {
+	display: inline-flex !important;
+	flex-wrap: nowrap !important;
+	width: max-content;
+	animation: km-tick 32s linear infinite;
 }
-.is-style-answer p { margin: 0; }
+.km-ticker-track p {
+	margin: 0 !important;
+	padding: 0 1.4rem;
+	font-weight: 800;
+	font-size: 1.375rem;
+	text-transform: uppercase;
+	letter-spacing: -0.01em;
+	white-space: nowrap;
+}
+.km-ticker-track p em {
+	font-family: var(--km-serif);
+	font-weight: 500;
+	text-transform: none;
+	font-size: 1.625rem;
+	color: var(--km-plum);
+	padding-left: 1.4rem;
+}
+@keyframes km-tick { to { transform: translateX(-50%); } }
 
-/* ---------- Dash list ---------- */
-.is-style-dash { list-style: none; padding-left: 0; }
-.is-style-dash li { padding: 0.25rem 0; }
-.is-style-dash li::before { content: "—"; color: var(--km-pink); margin-right: 0.6rem; }
-
-/* ---------- Stats row (media kit) ---------- */
-.km-stats { border-top: 1px solid var(--km-ink); border-bottom: 1px solid var(--km-line); }
-.km-stats > .wp-block-column { text-align: center; padding: 1.75rem 1rem; }
-.km-stats > .wp-block-column + .wp-block-column { border-left: 1px solid var(--km-line); }
+/* ---------- Rounded cards and stats ---------- */
+.km-stats { gap: 14px !important; }
+.km-stats > .wp-block-column { background: var(--km-card); border-radius: var(--km-r); padding: 1.5rem; }
 .km-stats .km-stat {
-	font-family: var(--km-display);
-	font-weight: 300;
-	font-size: clamp(2.375rem, 4vw, 3.5rem);
-	line-height: 1.1;
+	font-weight: 800;
+	font-size: clamp(2.5rem, 4.4vw, 3.75rem);
+	letter-spacing: -0.04em;
+	line-height: 1;
 	margin: 0.5rem 0 0.25rem;
-	font-variant-numeric: lining-nums tabular-nums;
+	font-variant-numeric: tabular-nums;
 }
-@media (max-width: 781px) {
-	.km-stats > .wp-block-column + .wp-block-column { border-left: 0; border-top: 1px solid var(--km-line); }
-}
+.km-fit > .wp-block-group,
+.km-fit-item { background: var(--km-card); border-radius: var(--km-r); padding: 1.25rem; }
 
-/* ---------- Packages grid ---------- */
-.km-packages { gap: 0 !important; border-top: 1px solid var(--km-line); }
-.km-packages > .wp-block-column { padding: 2.25rem 2rem; border-bottom: 1px solid var(--km-line); display: flex; flex-direction: column; }
-.km-packages > .wp-block-column + .wp-block-column { border-left: 1px solid var(--km-line); }
-.km-packages .km-featured { background: var(--km-card); }
-.km-packages .km-featured .is-style-label { color: var(--km-plum); }
-.km-packages .km-price { margin-top: auto; padding-top: 1rem; font-size: 0.8125rem; letter-spacing: 0.06em; }
-@media (max-width: 781px) {
-	.km-packages > .wp-block-column + .wp-block-column { border-left: 0; }
+/* ---------- Packages ---------- */
+.km-packages { gap: 18px !important; }
+.km-packages > .wp-block-column {
+	padding: 1.75rem;
+	border: 2px solid var(--km-line);
+	border-radius: calc(var(--km-r) * 1.2);
+	display: flex;
+	flex-direction: column;
+	transition: border-color 0.2s, transform 0.2s;
 }
+.km-packages > .wp-block-column:hover { border-color: var(--km-ink); transform: translateY(-4px); }
+.km-packages .km-featured { background: var(--km-ink); color: #efe5ec; border-color: var(--km-ink); }
+.km-packages .km-featured :where(h3) { color: #fff; }
+.km-packages .km-featured .is-style-label { color: var(--km-pink); }
+.km-packages .km-price { margin-top: auto; padding-top: 1rem; font-size: 0.8125rem; font-weight: 600; }
 
-/* ---------- Numbered steps ("How it works") ---------- */
+/* ---------- Dot list ---------- */
+.is-style-dash { list-style: none; padding-left: 0; }
+.is-style-dash li { padding: 0.25rem 0 0.25rem 1.375rem; position: relative; }
+.is-style-dash li::before { content: ""; position: absolute; left: 0; top: 0.85em; width: 8px; height: 8px; border-radius: 50%; background: var(--km-pink); }
+
+/* ---------- Numbered steps ---------- */
 .km-steps { counter-reset: km-step; }
-.km-steps > .wp-block-column { counter-increment: km-step; }
+.km-steps > .wp-block-column { counter-increment: km-step; border-top: 2px solid var(--km-ink); padding-top: 1.125rem; }
 .km-steps > .wp-block-column::before {
 	content: "0" counter(km-step);
 	display: block;
-	font-family: var(--km-display);
-	font-style: italic;
-	font-size: 2.75rem;
+	font-weight: 800;
+	font-size: 3.5rem;
+	letter-spacing: -0.05em;
 	line-height: 1;
 	color: var(--km-pink);
-	margin-bottom: 0.75rem;
+	margin-bottom: 0.625rem;
 }
 
-/* ---------- Gear shelf (affiliate products) ---------- */
-.km-gear .wp-block-image img { aspect-ratio: 3 / 4; object-fit: cover; width: 100%; }
-.km-gear .km-spec {
-	font-size: var(--wp--preset--font-size--label);
-	letter-spacing: 0.14em;
-	text-transform: uppercase;
-	color: #f9c3db;
-	margin: 0;
-}
-.km-gear p { font-size: 0.9375rem; line-height: 1.6; }
-.km-disclose { font-size: 0.8125rem; font-style: italic; opacity: 0.8; }
-.km-aff-note {
-	font-size: 0.8125rem;
-	font-style: italic;
-	color: var(--km-muted);
-	border-top: 1px solid var(--km-line);
-	border-bottom: 1px solid var(--km-line);
-	padding: 0.75rem 0;
-}
+/* ---------- Gear shelf ---------- */
+.km-gear { background: #221b23; border-radius: var(--km-r); padding: 14px; }
+.km-gear .wp-block-image img { aspect-ratio: 1; object-fit: cover; width: 100%; border-radius: 16px; }
+.km-gear .km-spec { font-size: 0.625rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--km-pink); margin: 0; }
+.km-gear p { font-size: 0.875rem; line-height: 1.6; color: #cfc4d1; }
+.km-gear h3 { color: #fff; }
+.km-disclose { font-size: 0.8125rem; opacity: 0.8; }
+
+/* ---------- In-post gear strip ---------- */
+.km-gear-strip { gap: 14px !important; }
+.km-gear-strip > .wp-block-column { background: var(--km-card); border-radius: 18px; padding: 10px; }
+.km-gear-strip .wp-block-media-text__media img,
+.km-gear-strip .wp-block-media-text__media { border-radius: 12px; }
+
+/* ---------- Affiliate note ---------- */
+.km-aff-note { font-size: 0.75rem; color: var(--km-muted); }
 
 /* ---------- Recipe cards in query loops ---------- */
-.km-cards .wp-block-post-featured-image img { aspect-ratio: 4 / 5; object-fit: cover; }
-.km-cards .wp-block-post-title a { text-decoration: none; color: var(--km-ink); transition: color 0.2s; }
+.km-cards .wp-block-post-featured-image img { aspect-ratio: 4 / 5; object-fit: cover; transition: transform 0.3s; }
+.km-cards .wp-block-post-featured-image:hover img { transform: translateY(-6px) rotate(-1deg); }
+.km-cards .wp-block-post-featured-image { overflow: visible; }
+.km-cards .wp-block-post-title a { text-decoration: none; color: var(--km-ink); }
 .km-cards .wp-block-post-title a:hover { color: var(--km-plum); }
 
-/* ---------- FAQ (core/details) ---------- */
-.wp-block-details { padding: 1.25rem 0; }
+/* ---------- Quick answer ---------- */
+.is-style-answer {
+	position: relative;
+	background: var(--km-card);
+	border-radius: var(--km-r);
+	padding: 1.5rem 1.6rem 1.3rem !important;
+	font-family: var(--km-serif);
+	font-style: italic;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	color: #2c2430;
+	margin-top: 1.75rem;
+}
+.is-style-answer::before {
+	content: "The short answer";
+	position: absolute;
+	top: -12px;
+	left: 22px;
+	font-family: var(--km-body);
+	font-style: normal;
+	font-size: 0.625rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	background: var(--km-pink);
+	color: var(--km-ink);
+	padding: 0.25rem 0.625rem;
+	border-radius: 999px;
+}
+.is-style-answer p { margin: 0; }
+
+/* ---------- FAQ ---------- */
+.wp-block-details { border-bottom: 1px solid var(--km-line); padding: 1.125rem 0; }
 .wp-block-details summary {
-	font-family: var(--km-display);
-	font-size: 1.5625rem;
+	font-weight: 700;
+	font-size: 1.25rem;
+	letter-spacing: -0.02em;
 	cursor: pointer;
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	gap: 1rem;
 }
 .wp-block-details summary::-webkit-details-marker { display: none; }
-.wp-block-details summary::after { content: "+"; color: var(--km-pink); font-family: var(--km-body); font-weight: 300; }
-.wp-block-details[open] summary::after { content: "−"; }
+.wp-block-details summary::after {
+	content: "+";
+	display: grid;
+	place-items: center;
+	flex: 0 0 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: var(--km-card);
+	color: var(--km-plum);
+	font-weight: 600;
+}
+.wp-block-details[open] summary::after { content: "−"; background: var(--km-pink); color: var(--km-ink); }
 
 /* ---------- Author box ---------- */
-.km-author { border-top: 1px solid var(--km-line); border-bottom: 1px solid var(--km-line); }
-.km-author .wp-block-image img,
-.km-author .wp-block-avatar img { border-radius: 50%; }
+.km-author { background: var(--km-card); border-radius: calc(var(--km-r) * 1.4); }
+.km-author .wp-block-image img { border-radius: 50% !important; }
 
-/* ---------- Forms (contact and newsletter plugins) ---------- */
+/* ---------- Forms ---------- */
 .km-form input[type="text"],
 .km-form input[type="email"],
 .km-form select,
 .km-form textarea {
 	width: 100%;
 	font: inherit;
-	padding: 0.625rem 0;
-	border: 0;
-	border-bottom: 1px solid currentColor;
-	border-radius: 0;
-	background: transparent;
-	color: inherit;
+	padding: 0.8rem 1.1rem;
+	border: 2px solid var(--km-ink);
+	border-radius: 999px;
+	background: #fff;
+	color: var(--km-ink);
 }
+.km-form textarea { border-radius: 18px; }
+.has-plum-background-color .km-form :where(input, select, textarea) { border: 0; background: rgba(255, 255, 255, 0.12); color: #fff; border-radius: 16px; }
 
 /* ---------- WP Recipe Maker card ---------- */
 .wprm-recipe-container .wprm-recipe {
-	background: var(--km-card);
-	border: 1px solid var(--km-line);
-	outline: 1px solid var(--km-line);
-	outline-offset: 6px;
-	padding: 2.5rem;
+	background: #fff;
+	border: 2px solid var(--km-ink);
+	border-radius: calc(var(--km-r) * 1.4);
+	box-shadow: 10px 10px 0 var(--km-pink);
+	padding: 2.25rem;
 	margin: 4rem 0;
 	font-family: var(--km-body);
 	color: var(--km-ink);
 }
 .wprm-recipe .wprm-recipe-name,
 .wprm-recipe .wprm-recipe-header {
-	font-family: var(--km-display) !important;
-	font-weight: 400 !important;
+	font-family: var(--km-body) !important;
+	font-weight: 800 !important;
+	letter-spacing: -0.03em;
 }
-.wprm-recipe .wprm-recipe-name { font-size: 2.875rem !important; line-height: 1.08; }
-.wprm-recipe .wprm-recipe-header { font-size: 1.75rem !important; }
+.wprm-recipe .wprm-recipe-name { font-size: 2.75rem !important; line-height: 1; }
+.wprm-recipe .wprm-recipe-header { font-size: 1.5rem !important; }
 .wprm-recipe .wprm-recipe-ingredient { border-bottom: 1px solid var(--km-line); padding: 0.5rem 0; list-style: none; margin-left: 0 !important; }
 .wprm-recipe .wprm-recipe-ingredient-amount,
-.wprm-recipe .wprm-recipe-ingredient-unit {
-	font-family: var(--km-display);
-	font-weight: 500;
-	font-size: 1.1875rem;
-	color: var(--km-plum);
-}
-.wprm-recipe .wprm-recipe-instruction { padding: 0.5rem 0; }
-.wprm-recipe .wprm-recipe-instructions { counter-reset: km-ins; }
+.wprm-recipe .wprm-recipe-ingredient-unit { font-weight: 700; color: var(--km-plum); }
 .wprm-recipe .wprm-recipe-time,
-.wprm-recipe .wprm-recipe-servings { font-family: var(--km-display); font-size: 1.75rem; }
-.wprm-recipe .wprm-recipe-details-label,
-.wprm-recipe .wprm-recipe-meta-container .wprm-recipe-block-container .wprm-recipe-details-label {
-	font-family: var(--km-body);
+.wprm-recipe .wprm-recipe-servings { font-weight: 800; font-size: 1.5rem; letter-spacing: -0.03em; }
+.wprm-recipe .wprm-recipe-details-label {
 	font-size: var(--wp--preset--font-size--label);
-	letter-spacing: 0.2em;
+	font-weight: 600;
+	letter-spacing: 0.16em;
 	text-transform: uppercase;
 	color: var(--km-muted);
 }
 .wprm-recipe .wprm-recipe-rating svg path,
-.wprm-recipe .wprm-recipe-rating svg polygon { fill: var(--km-pink) !important; }
+.wprm-recipe .wprm-recipe-rating svg polygon { fill: #e8559a !important; }
 .wprm-recipe a.wprm-recipe-link,
 .wprm-recipe .wprm-recipe-print,
-.wprm-recipe .wprm-recipe-jump {
-	border-radius: 0 !important;
-	font-family: var(--km-body);
-	font-size: 0.6875rem;
-	letter-spacing: 0.18em;
-	text-transform: uppercase;
-}
+.wprm-recipe .wprm-recipe-jump { border-radius: 999px !important; font-weight: 600; }
 .wprm-recipe .wprm-recipe-equipment-container { border-top: 1px solid var(--km-line); padding-top: 1.5rem; }
-.wprm-recipe .wprm-recipe-equipment-name a { color: var(--km-plum); }
-.wprm-recipe .wprm-nutrition-label-container { border-top: 1px solid var(--km-line); padding-top: 1rem; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--km-muted); }
+.wprm-recipe .wprm-nutrition-label-container { background: var(--km-ink); color: #e9dee6; border-radius: 12px; padding: 0.875rem 1.25rem; font-size: 0.75rem; font-weight: 600; }
 @media (max-width: 600px) {
-	.wprm-recipe-container .wprm-recipe { padding: 1.25rem; }
+	.wprm-recipe-container .wprm-recipe { padding: 1.25rem; box-shadow: 6px 6px 0 var(--km-pink); }
 }
 
-/* ---------- Comments ---------- */
-.wp-block-comment-template li { border-top: 1px solid var(--km-line); padding-top: 1.25rem; }
+/* ---------- Mobile: full-bleed panels ---------- */
+@media (max-width: 600px) {
+	.km-panel { border-radius: 0; }
+}
 
 /* ---------- Motion ---------- */
 @media (prefers-reduced-motion: reduce) {
-	* { transition: none !important; animation: none !important; }
+	.km-ticker-track { animation: none; }
+	* { transition: none !important; }
 }

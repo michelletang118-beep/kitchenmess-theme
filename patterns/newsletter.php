@@ -6,13 +6,14 @@
  * Description: Lead magnet band. Replace the button with your newsletter plugin's form block (Kit, MailerLite, Mailchimp).
  */
 ?>
-<!-- wp:group {"align":"full","backgroundColor":"card","className":"is-style-hairline","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1160px"}} -->
-<div class="wp-block-group alignfull is-style-hairline has-card-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:group {"align":"wide","className":"km-panel","backgroundColor":"pink","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide km-panel has-pink-background-color has-background" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--30);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)">
 	<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-columns are-vertically-aligned-center">
 		<!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%">
-			<!-- wp:heading --><h2 class="wp-block-heading">Get my Japanese knife care guide <em>free</em></h2><!-- /wp:heading -->
+			<!-- wp:heading --><h2 class="wp-block-heading">Sharp knives, <em>sharper</em> cooks</h2><!-- /wp:heading -->
+			<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">Free Japanese knife care guide</p><!-- /wp:paragraph -->
 			<!-- wp:paragraph --><p>Sharpening, storage and the three cuts every home cook should know. Plus one new recipe a fortnight.</p><!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

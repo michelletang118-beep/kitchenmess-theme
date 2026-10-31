@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'KITCHENMESS_VERSION', '0.1.0' );
+define( 'KITCHENMESS_VERSION', '0.2.0' );
 
 /**
  * Theme supports and editor styles.
@@ -45,8 +45,8 @@ add_action( 'wp_enqueue_scripts', 'kitchenmess_enqueue' );
  */
 function kitchenmess_preload_fonts() {
 	$fonts = array(
-		'assets/fonts/cormorant-garamond-latin-300-normal.woff2',
-		'assets/fonts/montserrat-latin-300-normal.woff2',
+		'assets/fonts/montserrat-latin-800-normal.woff2',
+		'assets/fonts/montserrat-latin-400-normal.woff2',
 	);
 	foreach ( $fonts as $font ) {
 		printf(
@@ -71,13 +71,6 @@ function kitchenmess_block_styles() {
 	register_block_style(
 		'core/group',
 		array(
-			'name'  => 'hairline',
-			'label' => __( 'Hairline box', 'kitchenmess' ),
-		)
-	);
-	register_block_style(
-		'core/group',
-		array(
 			'name'  => 'answer',
 			'label' => __( 'Quick answer', 'kitchenmess' ),
 		)
@@ -86,14 +79,7 @@ function kitchenmess_block_styles() {
 		'core/list',
 		array(
 			'name'  => 'dash',
-			'label' => __( 'Dash list', 'kitchenmess' ),
-		)
-	);
-	register_block_style(
-		'core/columns',
-		array(
-			'name'  => 'ruled',
-			'label' => __( 'Ruled columns', 'kitchenmess' ),
+			'label' => __( 'Pink dot list', 'kitchenmess' ),
 		)
 	);
 }
