@@ -46,7 +46,7 @@
 			<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">Online</p><!-- /wp:paragraph -->
 			<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Gear review</h3><!-- /wp:heading -->
 			<!-- wp:list {"className":"is-style-dash","fontSize":"small"} -->
-			<ul class="wp-block-list is-style-dash has-small-font-size"><!-- wp:list-item --><li>Honest long-term review, tested over 4 weeks</li><!-- /wp:list-item --><!-- wp:list-item --><li>Added to the My toolkit page</li><!-- /wp:list-item --><!-- wp:list-item --><li>Affiliate or flat fee</li><!-- /wp:list-item --></ul>
+			<ul class="wp-block-list is-style-dash has-small-font-size"><!-- wp:list-item --><li>Honest long-term review, tested over 4 weeks</li><!-- /wp:list-item --><!-- wp:list-item --><li>Added to the Kitchen tools page</li><!-- /wp:list-item --><!-- wp:list-item --><li>Affiliate or flat fee</li><!-- /wp:list-item --></ul>
 			<!-- /wp:list -->
 		</div>
 		<!-- /wp:column -->

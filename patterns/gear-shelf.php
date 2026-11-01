@@ -8,7 +8,7 @@
 ?>
 <!-- wp:group {"align":"wide","className":"km-panel","backgroundColor":"ink","textColor":"white","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide km-panel has-white-color has-ink-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
-	<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">My toolkit</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">Kitchen tools</p><!-- /wp:paragraph -->
 	<!-- wp:heading {"textColor":"white"} --><h2 class="wp-block-heading has-white-color has-text-color">The stuff I <em>actually</em> use</h2><!-- /wp:heading -->
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|40"}}}} -->
 	<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--40)">
