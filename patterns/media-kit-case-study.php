@@ -11,15 +11,15 @@
 	<!-- wp:column {"verticalAlignment":"center"} -->
 	<div class="wp-block-column is-vertically-aligned-center">
 		<!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"large"} -->
-		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case.jpg' ) ); ?>" alt="Past collaboration" style="aspect-ratio:4/5;object-fit:cover"/></figure>
+		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case.jpg' ) ); ?>" alt="Thermomix TM6 recipe by Kitchenmess" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 		<!-- /wp:image -->
 	</div>
 	<!-- /wp:column -->
 	<!-- wp:column {"verticalAlignment":"center"} -->
 	<div class="wp-block-column is-vertically-aligned-center">
 		<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">Case study</p><!-- /wp:paragraph -->
-		<!-- wp:heading --><h2 class="wp-block-heading">Brand name × Kitchenmess <em>supper club</em></h2><!-- /wp:heading -->
-		<!-- wp:paragraph --><p>Describe a past collaboration: what you made, where it ran and one result, such as reach, clicks or sales from a discount code.</p><!-- /wp:paragraph -->
+		<!-- wp:heading --><h2 class="wp-block-heading">Thermomix × Kitchenmess <em>Sponsored Recipes</em></h2><!-- /wp:heading -->
+		<!-- wp:paragraph --><p>Thermomix asked me to show busy professionals what the TM6 can really do. I developed, cooked and styled six original recipes, from savoury mains to desserts, each one built to show off a different function of the machine. The result is a series that teaches as much as it inspires: restaurant-level dishes, made simple enough for a weeknight.</p><!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->
 </div>
