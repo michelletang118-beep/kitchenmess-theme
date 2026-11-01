@@ -35,6 +35,7 @@ Always try a new theme on a staging copy first. Most hosts (SiteGround, Kinsta, 
 | --- | --- |
 | Home | Uses the home template automatically (hero, recipes, gear shelf, supper club, newsletter). Edit it under **Appearance → Editor → Templates → Front Page**. |
 | Work with me | Edit the existing page, choose the **Wide page (no title)** template, delete the old content and insert the pattern **Work with me (full media kit page)**. The page shows no public stats or prices; send your audience numbers in a private PDF media kit when brands ask. |
+| My story | Edit your existing About page (slug `about`), choose the **Wide page (no title)** template, delete the old content and insert the pattern **My story (full About page)**. Swap in your own portrait. |
 | Kitchen tools | New page with slug `kitchen-tools`, template **Wide page (no title)**, pattern **Kitchen tools page**. Paste your affiliate links into the buttons. |
 | Affiliate disclosure | New page with slug `affiliate-disclosure`, pattern **Affiliate disclosure page**. |
 | Recipes | The menu links to `/recipes/`. Either set **Settings → Reading → Posts page** to a page called Recipes, or change the menu link. |
