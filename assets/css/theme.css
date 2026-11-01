@@ -135,6 +135,17 @@ img { height: auto; }
 .km-sticker em { display: block; font-family: var(--km-serif); font-weight: 500; font-size: 22px; }
 @media (max-width: 781px) { .km-sticker { left: auto; right: 12px; top: -20px; width: 108px; height: 108px; } .km-sticker p { font-size: 12px; } }
 
+/* ---------- Hero credential line ---------- */
+.km-cred {
+	font-size: 0.9375rem;
+	font-weight: 600;
+	line-height: 1.5;
+	border-left: 4px solid var(--km-pink);
+	padding-left: 1rem;
+	max-width: 44ch;
+}
+.km-cred em { font-family: var(--km-serif); font-weight: 500; font-size: 1.25em; color: var(--km-plum); }
+
 /* ---------- Ticker ---------- */
 .km-ticker {
 	overflow: hidden;

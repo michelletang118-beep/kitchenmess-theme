@@ -17,10 +17,10 @@
 		<h1 class="wp-block-heading">Messy kitchen. <mark>Seriously</mark> <em>good</em> food.</h1>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"lede"} -->
-		<p class="has-lede-font-size">Restaurant-level plates, zero pretension. Nutritious, high-flavor recipes engineered to host and impress with ease, no matter how small the kitchen.</p>
+		<p class="has-lede-font-size">Restaurant-level plates, zero pretension. Healthy, big-flavour recipes that make hosting look effortless, even in a tiny kitchen.</p>
 		<!-- /wp:paragraph -->
-		<!-- wp:paragraph {"className":"is-style-label"} -->
-		<p class="is-style-label">Private chef · Supper club host · Cooking teacher · Nutrition writer</p>
+		<!-- wp:paragraph {"className":"km-cred"} -->
+		<p class="km-cred"><em>Conjured</em> by a tech exec by day, supper club host by night. 500+ dinner parties across 8 cities. Countless happy bellies.</p>
 		<!-- /wp:paragraph -->
 		<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 		<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">
