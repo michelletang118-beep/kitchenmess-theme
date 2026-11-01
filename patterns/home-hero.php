@@ -10,9 +10,6 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:column {"verticalAlignment":"center"} -->
 	<div class="wp-block-column is-vertically-aligned-center">
-		<!-- wp:paragraph {"className":"is-style-label km-rule"} -->
-		<p class="is-style-label km-rule">Healthy · Quick · Made to impress</p>
-		<!-- /wp:paragraph -->
 		<!-- wp:heading {"level":1} -->
 		<h1 class="wp-block-heading">Messy kitchen. <mark>Seriously</mark> <em>good</em> food.</h1>
 		<!-- /wp:heading -->
