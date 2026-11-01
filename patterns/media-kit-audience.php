@@ -12,7 +12,7 @@
 	<div class="wp-block-column">
 		<!-- wp:heading --><h2 class="wp-block-heading">Who's <em>reading</em></h2><!-- /wp:heading -->
 		<!-- wp:list {"className":"is-style-dash"} -->
-		<ul class="wp-block-list is-style-dash"><!-- wp:list-item --><li>Based in Hong Kong, with readers across Asia, the US, the UK and Australia</li><!-- /wp:list-item --><!-- wp:list-item --><li>Busy working professionals who want quick, healthy meals that impress</li><!-- /wp:list-item --><!-- wp:list-item --><li>Into healthy eating, entertaining at home, beautiful tableware and good kitchen tools</li><!-- /wp:list-item --><!-- wp:list-item --><li>Supper club guests: food lovers, hosts and professionals in Hong Kong</li><!-- /wp:list-item --></ul>
+		<ul class="wp-block-list is-style-dash"><!-- wp:list-item --><li>Readers across the US, Asia, UK, and Australia</li><!-- /wp:list-item --><!-- wp:list-item --><li>Busy working professionals who want quick, healthy meals that impress</li><!-- /wp:list-item --><!-- wp:list-item --><li>Into healthy eating, entertaining at home, beautiful tableware and good kitchen tools</li><!-- /wp:list-item --><!-- wp:list-item --><li>Supper club guests: food lovers, hosts and professionals in Hong Kong</li><!-- /wp:list-item --></ul>
 		<!-- /wp:list -->
 		<!-- wp:paragraph {"fontSize":"small","textColor":"muted"} --><p class="has-muted-color has-text-color has-small-font-size">Audience numbers and past campaign results are in the full media kit. <a href="#contact">Ask for a copy</a>.</p><!-- /wp:paragraph -->
 	</div>
