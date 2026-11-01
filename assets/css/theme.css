@@ -387,3 +387,7 @@ img { height: auto; }
 	.km-ticker-track { animation: none; }
 	* { transition: none !important; }
 }
+
+/* Signature on the My story page. Replace the text with a signature image block if you have one. */
+.km-signature { font-family: var(--wp--preset--font-family--accent); font-style: italic; font-weight: 500; font-size: 3.5rem; line-height: 1; color: var(--wp--preset--color--plum); margin-top: 1.75rem !important; margin-bottom: 0.375rem !important; transform: rotate(-4deg); transform-origin: left; }
+.km-signoff { margin-top: 0 !important; line-height: 1.5; }

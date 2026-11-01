@@ -45,7 +45,10 @@
 	<!-- wp:paragraph --><p>I grew up in Sydney under clear blue skies and superb flat whites, spent over a decade in Hong Kong—a fast-paced, food-obsessed concrete jungle—and now spend most of the year living out of a suitcase across the globe. Wherever I land, I'm hunting down farmers markets and reverse-engineering regional flavours for compact kitchens and high-impact dinner tables.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph --><p>Kitchenmess is the cheat sheet to that lifestyle: healthy, high-flavour, aesthetic plates engineered for people who are both busy and hungry. Every recipe is battle-tested in my own tiny kitchen. Zero pretension, maximum flavour, and completely doable on a weeknight.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph --><p>Pull up a chair, try a recipe, and let me know how it tastes from your corner of the world. Whether you're here to master weeknight dining, grab my hosting guide, or claim a seat at the next FlirtyFridays table—welcome.</p><!-- /wp:paragraph -->
-	<!-- wp:paragraph --><p>For brand collaborations, partnerships, or supper club inquiries, write to me directly at <a href="mailto:michelle@kitchenmess.com">michelle@kitchenmess.com</a>.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>See you at the table.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph {"className":"km-signature"} --><p class="km-signature">Michelle</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph {"className":"km-signoff"} --><p class="km-signoff"><strong>Michelle</strong><br>Founder, Kitchenmess &amp; FlirtyFridays</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph {"fontSize":"small"} --><p class="has-small-font-size">For brand collaborations, partnerships, or supper club inquiries, write to me directly at <a href="mailto:michelle@kitchenmess.com">michelle@kitchenmess.com</a>.</p><!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
