@@ -37,10 +37,11 @@
 
 <!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--60)">
-	<!-- wp:heading --><h2 class="wp-block-heading">From Sydney sunshine to Hong Kong <em>hustle</em></h2><!-- /wp:heading -->
-	<!-- wp:paragraph --><p>I grew up under Sydney's clear blue skies and now live in Hong Kong, a city that never sleeps and never stops eating. My days are spent growing tech companies in data and AI, with the odd board meeting. My evenings belong to the stove, usually cooking for far more people than my kitchen was ever built for.</p><!-- /wp:paragraph -->
-	<!-- wp:paragraph --><p>Kitchenmess started as a place to record my experiments, adventures and misadventures in the kitchen (hence the name). It has grown into a collection of healthy, big-flavour recipes for people like me: busy, hungry, and keen to put something on the table that looks like it took far longer than it did.</p><!-- /wp:paragraph -->
-	<!-- wp:paragraph --><p>No culinary school here. I have a double degree in Finance and Law, a stint as a MasterChef contestant in 2015 (terrifying), and years of feeding friends and strangers at my supper clubs. Every recipe is tested in my own tiny kitchen, so if I can pull it off on a Tuesday night, so can you.</p><!-- /wp:paragraph -->
+	<!-- wp:heading --><h2 class="wp-block-heading">The story <em>so far</em></h2><!-- /wp:heading -->
+	<!-- wp:paragraph --><p>Cooking is my love language. Nothing gives me greater joy than to gather my friends together over a communal dining table and have them fed <em>well</em>. Part art, part science, there is something primal and nurturing about cooking. The process of sourcing quality ingredients, layering flavours and plating something beautiful is how I switch off from a week of screens and spreadsheets. And the moment a table goes quiet because everyone is too busy eating? That is my favourite sound.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>That love became FlirtyFridays, the supper club I founded and still host: intimate, convivial dinners where guests arrive as strangers and leave as friends.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>I grew up under Sydney's clear blue skies and now live in Hong Kong, a city that never sleeps and never stops eating. My days are spent growing tech companies in data and AI, with the odd board meeting. Kitchenmess is where I share what I cook the rest of the time: healthy, big-flavour recipes for people like me, busy and hungry, who want something on the table that looks like it took far longer than it did.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>No culinary school here. I have a double degree in Finance and Law, a stint as a MasterChef contestant in 2015 (terrifying), and years of feeding friends and strangers around my table. Every recipe is tested in my own tiny kitchen, so if I can pull it off on a Tuesday night, so can you.</p><!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
