@@ -6,10 +6,10 @@
  * Description: Scrolling pink band of what Kitchenmess is about. Words in italics show in the serif accent.
  */
 $kitchenmess_items = array(
-	array( 'Seafood', 'done properly' ),
-	array( 'Japanese knives', 'sharp &amp; handmade' ),
-	array( 'Supper clubs', 'in Hong Kong' ),
-	array( 'Weeknight Asian', 'no fuss' ),
+	array( 'Healthy', '&amp; delicious' ),
+	array( 'Ready in 30', 'minutes' ),
+	array( 'Made to impress', 'your guests' ),
+	array( 'Plated', 'beautifully' ),
 );
 ?>
 <!-- wp:group {"align":"full","className":"km-ticker","backgroundColor":"pink","textColor":"ink","style":{"spacing":{"padding":{"top":"1rem","bottom":"1rem"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->

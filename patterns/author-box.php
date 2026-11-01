@@ -21,7 +21,7 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">About the cook</p><!-- /wp:paragraph -->
 			<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">Michelle Tang</h3><!-- /wp:heading -->
-			<!-- wp:paragraph --><p>Private chef, supper club host and cooking teacher in Hong Kong. I write recipes for home cooks who want restaurant results without restaurant fuss.</p><!-- /wp:paragraph -->
+			<!-- wp:paragraph --><p>Private chef, supper club host and cooking teacher in Hong Kong. I write quick, healthy recipes for busy professionals who still want dinner to look and taste impressive.</p><!-- /wp:paragraph -->
 			<!-- wp:paragraph {"fontSize":"small"} --><p class="has-small-font-size"><a href="/about/">My story</a> · <a href="/work-with-me/">Work with me</a></p><!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

@@ -228,10 +228,10 @@
 				{
 					"slug": "xx-large",
 					"name": "Display",
-					"size": "7.75rem",
+					"size": "6rem",
 					"fluid": {
-						"min": "3.25rem",
-						"max": "7.75rem"
+						"min": "3rem",
+						"max": "6rem"
 					}
 				}
 			]
