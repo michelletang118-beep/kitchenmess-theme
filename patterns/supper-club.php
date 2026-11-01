@@ -19,11 +19,11 @@
 	<div class="wp-block-column is-vertically-aligned-center">
 		<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">Supper club · Private dining · Classes</p><!-- /wp:paragraph -->
 		<!-- wp:heading --><h2 class="wp-block-heading">Taste the mess <em>in person</em></h2><!-- /wp:heading -->
-		<!-- wp:paragraph --><p>Monthly supper clubs and private dinners in Hong Kong, plus hands-on cooking classes. Brands can be part of the table, from the knives on the board to the plates the courses arrive on.</p><!-- /wp:paragraph -->
+		<!-- wp:paragraph --><p>Monthly supper clubs in Hong Kong and other cities, plus cooking classes on demand. Come join a soirée to widen your social circle. Or if you want to feature your brand at a dinner party or on my site, click partner below.</p><!-- /wp:paragraph -->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button --><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://flirtyfridays.com/private-dining">Book a seat</a></div><!-- /wp:button -->
-			<!-- wp:button {"className":"is-style-outline"} --><div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/work-with-me/">Partner on an event</a></div><!-- /wp:button -->
+			<!-- wp:button {"className":"is-style-outline"} --><div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/work-with-me/">Partner with me</a></div><!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
 	</div>
