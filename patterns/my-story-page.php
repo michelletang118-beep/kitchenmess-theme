@@ -15,10 +15,10 @@
 	<div class="wp-block-column is-vertically-aligned-center">
 		<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">My story</p><!-- /wp:paragraph -->
 		<!-- wp:heading {"level":1} -->
-		<h1 class="wp-block-heading">Hi, I'm Michelle. I make a <em>delicious</em> mess.</h1>
+		<h1 class="wp-block-heading">Boardroom by day. <em>Soirées</em> by night.</h1>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"lede"} -->
-		<p class="has-lede-font-size">Tech executive by day, supper club host by night, and the cook behind every recipe on Kitchenmess.</p>
+		<p class="has-lede-font-size">Hi, I'm Michelle: company director and tech executive, supper club host, and the cook behind every recipe on Kitchenmess.</p>
 		<!-- /wp:paragraph -->
 		<!-- wp:paragraph {"className":"km-cred"} -->
 		<p class="km-cred">500+ dinner parties across 8 cities, all from a very small kitchen.</p>
@@ -38,7 +38,7 @@
 <!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:heading --><h2 class="wp-block-heading">From Sydney sunshine to Hong Kong <em>hustle</em></h2><!-- /wp:heading -->
-	<!-- wp:paragraph --><p>I grew up under Sydney's clear blue skies and now live in Hong Kong, a city that never sleeps and never stops eating. My day job is in tech and startups. My evenings belong to the stove, usually cooking for far more people than my kitchen was ever built for.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>I grew up under Sydney's clear blue skies and now live in Hong Kong, a city that never sleeps and never stops eating. My days are spent in boardrooms and growing tech companies in data and AI. My evenings belong to the stove, usually cooking for far more people than my kitchen was ever built for.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph --><p>Kitchenmess started as a place to record my experiments, adventures and misadventures in the kitchen (hence the name). It has grown into a collection of healthy, big-flavour recipes for people like me: busy, hungry, and keen to put something on the table that looks like it took far longer than it did.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph --><p>No culinary school here. I have a double degree in Finance and Law, a stint as a MasterChef contestant in 2015 (terrifying), and years of feeding friends and strangers at my supper clubs. Every recipe is tested in my own tiny kitchen, so if I can pull it off on a Tuesday night, so can you.</p><!-- /wp:paragraph -->
 </div>
@@ -63,7 +63,7 @@
 <div class="wp-block-group alignwide km-panel has-card-background-color has-background" style="margin-bottom:var(--wp--preset--spacing--60);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 	<!-- wp:heading --><h2 class="wp-block-heading">The short <em>version</em></h2><!-- /wp:heading -->
 	<!-- wp:list {"className":"is-style-dash"} -->
-	<ul class="wp-block-list is-style-dash"><!-- wp:list-item --><li>Sydney born, Hong Kong based</li><!-- /wp:list-item --><!-- wp:list-item --><li>Tech executive in the startup world</li><!-- /wp:list-item --><!-- wp:list-item --><li>Supper club host behind 500+ dinner parties across 8 cities</li><!-- /wp:list-item --><!-- wp:list-item --><li>MasterChef contestant, 2015</li><!-- /wp:list-item --><!-- wp:list-item --><li>Recipe developer for brands, including a Thermomix TM6 recipe series</li><!-- /wp:list-item --><!-- wp:list-item --><li>Cooking teacher, food stylist and photographer</li><!-- /wp:list-item --></ul>
+	<ul class="wp-block-list is-style-dash"><!-- wp:list-item --><li>Sydney born, Hong Kong based</li><!-- /wp:list-item --><!-- wp:list-item --><li>Non-executive director on an ASX-listed board (GAICD)</li><!-- /wp:list-item --><!-- wp:list-item --><li>Commercial growth executive in data and AI</li><!-- /wp:list-item --><!-- wp:list-item --><li>Supper club host behind 500+ dinner parties across 8 cities</li><!-- /wp:list-item --><!-- wp:list-item --><li>MasterChef contestant, 2015</li><!-- /wp:list-item --><!-- wp:list-item --><li>Recipe developer for brands, including a Thermomix TM6 recipe series</li><!-- /wp:list-item --><!-- wp:list-item --><li>Cooking teacher, food stylist and photographer</li><!-- /wp:list-item --></ul>
 	<!-- /wp:list -->
 </div>
 <!-- /wp:group -->
