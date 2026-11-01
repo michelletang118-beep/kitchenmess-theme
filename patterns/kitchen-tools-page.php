@@ -11,9 +11,8 @@
 ?>
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"820px"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-	<!-- wp:paragraph {"align":"center","className":"is-style-label"} --><p class="has-text-align-center is-style-label">My toolkit</p><!-- /wp:paragraph -->
 	<!-- wp:heading {"textAlign":"center","level":1} --><h1 class="wp-block-heading has-text-align-center">Kitchen tools I <em>love</em></h1><!-- /wp:heading -->
-	<!-- wp:paragraph {"align":"center","fontSize":"lede"} --><p class="has-text-align-center has-lede-font-size">My edit of the knives, pans, gadgets and ceramics I reach for every week, from hand-forged Japanese knives to the plates I serve supper club courses on.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph {"align":"center","fontSize":"lede"} --><p class="has-text-align-center has-lede-font-size">From hand-forged Japanese knives to French table knives, this is my collection of the culinary tools, gadgets and tableware I love cooking (and hosting) with.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph {"align":"center","className":"km-aff-note"} --><p class="has-text-align-center km-aff-note">Some links are affiliate links. I earn a small commission at no cost to you. <a href="/affiliate-disclosure/">Read my disclosure</a>.</p><!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
