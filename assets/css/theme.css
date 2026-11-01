@@ -197,7 +197,8 @@ img { height: auto; }
 .km-packages .km-featured { background: var(--km-ink); color: #efe5ec; border-color: var(--km-ink); }
 .km-packages .km-featured :where(h3) { color: #fff; }
 .km-packages .km-featured .is-style-label { color: var(--km-pink); }
-.km-packages .km-price { margin-top: auto; padding-top: 1rem; font-size: 0.8125rem; font-weight: 600; }
+.km-rates { background: var(--km-card); border-radius: 999px; padding: 0.875rem 1.5rem; font-weight: 600; text-align: center; }
+.km-rates a { color: var(--km-plum); }
 
 /* ---------- Dot list ---------- */
 .is-style-dash { list-style: none; padding-left: 0; }
