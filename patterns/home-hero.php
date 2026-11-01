@@ -14,10 +14,10 @@
 		<p class="is-style-label km-rule">Healthy · Quick · Made to impress</p>
 		<!-- /wp:paragraph -->
 		<!-- wp:heading {"level":1} -->
-		<h1 class="wp-block-heading">Dinner that <mark>impresses</mark>. Ready in <em>30 minutes.</em></h1>
+		<h1 class="wp-block-heading">Messy kitchen. <mark>Seriously</mark> <em>good</em> food.</h1>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"lede"} -->
-		<p class="has-lede-font-size">Healthy, beautiful recipes for busy professionals, from a Hong Kong private chef. Quick enough for a Tuesday night, gorgeous enough for your guests.</p>
+		<p class="has-lede-font-size">Restaurant-level plates, zero pretension. Nutritious, high-flavor recipes engineered to host and impress with ease, no matter how small the kitchen.</p>
 		<!-- /wp:paragraph -->
 		<!-- wp:paragraph {"className":"is-style-label"} -->
 		<p class="is-style-label">Private chef · Supper club host · Cooking teacher · Nutrition writer</p>
