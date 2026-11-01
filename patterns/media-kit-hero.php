@@ -13,7 +13,7 @@
 	<!-- /wp:image -->
 	<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">Media kit · 2026</p><!-- /wp:paragraph -->
 	<!-- wp:heading {"level":1,"textColor":"white"} --><h1 class="wp-block-heading has-white-color has-text-color">Put your brand on the <em>table.</em> Not just the feed.</h1><!-- /wp:heading -->
-	<!-- wp:paragraph {"fontSize":"lede"} --><p class="has-lede-font-size">Kitchenmess serves busy professionals quick, healthy recipes that look as good as they taste, plus real-life supper clubs in Hong Kong. I partner with knife makers, cookware, tableware and food brands I use in my own kitchen.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph {"fontSize":"lede"} --><p class="has-lede-font-size">Kitchenmess serves busy professionals quick, healthy recipes that look as good as they taste, plus real-life supper clubs in Hong Kong and major cities around the world. I partner with knife makers, cookware, tableware and food brands I use in my own kitchen.</p><!-- /wp:paragraph -->
 	<!-- wp:buttons -->
 	<div class="wp-block-buttons">
 		<!-- wp:button --><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#contact">Start a project</a></div><!-- /wp:button -->
