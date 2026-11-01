@@ -18,7 +18,7 @@
 		<h1 class="wp-block-heading">Tech by day. <em>Soirées</em> by night.</h1>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"lede"} -->
-		<p class="has-lede-font-size">Hi, I'm Michelle: company director and tech executive, supper club host, and the cook behind every recipe on Kitchenmess.</p>
+		<p class="has-lede-font-size">Tech executive, supper club host, and the cook behind every recipe on Kitchenmess.</p>
 		<!-- /wp:paragraph -->
 		<!-- wp:paragraph {"className":"km-cred"} -->
 		<p class="km-cred">The founder and chief hostess behind <a href="https://www.flirtyfridays.com">FlirtyFridays</a>, an intimate and convivial dinner party series designed for fostering authentic connections.</p>
@@ -37,12 +37,13 @@
 
 <!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--60)">
-	<!-- wp:heading --><h2 class="wp-block-heading">The story <em>so far</em></h2><!-- /wp:heading -->
-	<!-- wp:paragraph --><p>Cooking is my love language. Nothing gives me greater joy than to gather my friends together over a communal dining table and have them fed <em>well</em>. Part art, part science, there is something primal and nurturing about cooking. The process of sourcing quality ingredients, layering flavours and plating something beautiful is how I switch off from a week of screens and spreadsheets. And the moment a table goes quiet because everyone is too busy eating? That is my favourite sound.</p><!-- /wp:paragraph -->
-	<!-- wp:paragraph --><p>That love became FlirtyFridays, the supper club I founded and still host: intimate, convivial dinners where guests arrive as strangers and leave as friends.</p><!-- /wp:paragraph -->
-	<!-- wp:paragraph --><p>I grew up under Sydney's clear blue skies and now live in Hong Kong, a city that never sleeps and never stops eating. My days are spent growing tech companies in data and AI, with the occasional board meeting in the United States. Kitchenmess is where I share what I cook the rest of the time: healthy, big-flavour recipes for people like me, busy and hungry, who want something on the table that looks like it took far longer than it did.</p><!-- /wp:paragraph -->
-	<!-- wp:paragraph --><p>I love to travel and would describe myself as peripatetic: always keen to learn and insatiably curious about other cultures. On every journey I'm picking up ingredients and masterminding how to bring those flavours back to my dining table.</p><!-- /wp:paragraph -->
-	<!-- wp:paragraph --><p>No culinary school here. I have a double degree in Finance and Law, a stint as a MasterChef contestant in 2015 (terrifying), and years of feeding friends and strangers around my table. Every recipe is tested in my own tiny kitchen, so if I can pull it off on a Tuesday night, so can you.</p><!-- /wp:paragraph -->
+	<!-- wp:heading --><h2 class="wp-block-heading">Behind the <em>table</em></h2><!-- /wp:heading -->
+	<!-- wp:paragraph --><p>Hi! I'm Michelle and thanks for stumbling upon my blog. So let me start with a brief introduction. Cooking is my love language, and for an ambitious, fast-moving ADHD brain, it is my ultimate form of meditation.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>The sensory ritual of sourcing seasonal ingredients, layering bold flavours, and plating something beautiful is how I switch off from a week of screens, spreadsheets, and late-night calls. Nothing beats gathering people together—and that moment the room goes completely quiet because everyone is too busy eating? That is my favourite sound in the world.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>That passion sparked <a href="https://www.flirtyfridays.com">FlirtyFridays</a>, the supper club I founded in 2016 and still host: 500+ intimate dinner parties across eight global cities, built on the belief that good wine, restaurant-level home cooking, and a communal table can turn strangers into lifelong friends.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>No culinary school here. I have degrees in Finance and Law, survived a terrifying trial-by-fire on MasterChef in 2015, and spend my days scaling tech companies in data and AI while serving as a non-executive director on an ASX-listed board with frequent board meetings in the US.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>I grew up in Sydney under clear blue skies and superb flat whites, spent over a decade in Hong Kong—a fast-paced, food-obsessed concrete jungle—and now spend most of the year living out of a suitcase across the globe. Wherever I land, I'm hunting down farmers markets and reverse-engineering regional flavours for compact kitchens and high-impact dinner tables.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>Kitchenmess is the cheat sheet to that lifestyle: healthy, high-flavour, aesthetic plates engineered for people who are both busy and hungry. Every recipe is battle-tested in my own tiny kitchen. Zero pretension, maximum flavour, and completely doable on a weeknight.</p><!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
@@ -65,7 +66,7 @@
 <div class="wp-block-group alignwide km-panel has-card-background-color has-background" style="margin-bottom:var(--wp--preset--spacing--60);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 	<!-- wp:heading --><h2 class="wp-block-heading">The short <em>version</em></h2><!-- /wp:heading -->
 	<!-- wp:list {"className":"is-style-dash"} -->
-	<ul class="wp-block-list is-style-dash"><!-- wp:list-item --><li>Sydney born, Hong Kong based</li><!-- /wp:list-item --><!-- wp:list-item --><li>Non-executive director on an ASX-listed board (GAICD)</li><!-- /wp:list-item --><!-- wp:list-item --><li>Commercial growth executive in data and AI</li><!-- /wp:list-item --><!-- wp:list-item --><li>Supper club host behind 500+ dinner parties across 8 cities</li><!-- /wp:list-item --><!-- wp:list-item --><li>MasterChef contestant, 2015</li><!-- /wp:list-item --><!-- wp:list-item --><li>Recipe developer for brands, including a Thermomix TM6 recipe series</li><!-- /wp:list-item --><!-- wp:list-item --><li>Cooking teacher, food stylist and photographer</li><!-- /wp:list-item --></ul>
+	<ul class="wp-block-list is-style-dash"><!-- wp:list-item --><li>Sydney born, a decade in Hong Kong, now cooking my way around the globe</li><!-- /wp:list-item --><!-- wp:list-item --><li>Non-executive director on an ASX-listed board (GAICD)</li><!-- /wp:list-item --><!-- wp:list-item --><li>Commercial growth executive in data and AI</li><!-- /wp:list-item --><!-- wp:list-item --><li>Founder of FlirtyFridays supper club (2016): 500+ dinner parties across 8 cities</li><!-- /wp:list-item --><!-- wp:list-item --><li>MasterChef contestant, 2015</li><!-- /wp:list-item --><!-- wp:list-item --><li>Recipe developer for brands, including a Thermomix TM6 recipe series</li><!-- /wp:list-item --><!-- wp:list-item --><li>Cooking teacher, food stylist and photographer</li><!-- /wp:list-item --></ul>
 	<!-- /wp:list -->
 </div>
 <!-- /wp:group -->
