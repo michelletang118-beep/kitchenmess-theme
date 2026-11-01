@@ -44,6 +44,8 @@
 	<!-- wp:paragraph --><p>No culinary school here. I have degrees in Finance and Law, survived a terrifying trial-by-fire on MasterChef in 2015, and spend my days scaling tech companies in data and AI while serving as a non-executive director on an ASX-listed board with frequent board meetings in the US.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph --><p>I grew up in Sydney under clear blue skies and superb flat whites, spent over a decade in Hong Kong—a fast-paced, food-obsessed concrete jungle—and now spend most of the year living out of a suitcase across the globe. Wherever I land, I'm hunting down farmers markets and reverse-engineering regional flavours for compact kitchens and high-impact dinner tables.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph --><p>Kitchenmess is the cheat sheet to that lifestyle: healthy, high-flavour, aesthetic plates engineered for people who are both busy and hungry. Every recipe is battle-tested in my own tiny kitchen. Zero pretension, maximum flavour, and completely doable on a weeknight.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>Pull up a chair, try a recipe, and let me know how it tastes from your corner of the world. Whether you're here to master weeknight dining, grab my hosting guide, or claim a seat at the next FlirtyFridays table—welcome.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>For brand collaborations, partnerships, or supper club inquiries, write to me directly at <a href="mailto:michelle@kitchenmess.com">michelle@kitchenmess.com</a>.</p><!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
@@ -75,8 +77,8 @@
 
 <!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--60)">
-	<!-- wp:heading --><h2 class="wp-block-heading">Pull up a <em>chair</em></h2><!-- /wp:heading -->
-	<!-- wp:paragraph --><p>Start with the recipes, join the newsletter for a new one every fortnight, or say hello at <a href="mailto:michelle@kitchenmess.com">michelle@kitchenmess.com</a>. Brands, the media kit is this way.</p><!-- /wp:paragraph -->
+	<!-- wp:heading --><h2 class="wp-block-heading">Say <em>hello</em></h2><!-- /wp:heading -->
+	<!-- wp:paragraph --><p>Find your first recipe, or see how we can work together.</p><!-- /wp:paragraph -->
 	<!-- wp:buttons -->
 	<div class="wp-block-buttons">
 		<!-- wp:button --><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/recipes/">Get cooking</a></div><!-- /wp:button -->
