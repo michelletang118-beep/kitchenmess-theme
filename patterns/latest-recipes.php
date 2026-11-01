@@ -13,10 +13,12 @@
 	<!-- /wp:heading -->
 	<!-- wp:buttons {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"},"blockGap":"0.625rem"}}} -->
 	<div class="wp-block-buttons" style="margin-bottom:var(--wp--preset--spacing--40)">
-		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/quick/">Under 30 minutes</a></div><!-- /wp:button -->
-		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/healthy/">Healthy</a></div><!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/30-minute-meals/">30 minute meals</a></div><!-- /wp:button -->
 		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/dinner-party/">Dinner party</a></div><!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/appetiser/">Starters &amp; canapés</a></div><!-- /wp:button -->
 		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/seafood/">Seafood</a></div><!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/breakfast/">Breakfast</a></div><!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline","fontSize":"small"} --><div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" href="/category/dessert/">Desserts</a></div><!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->
 	<!-- wp:query {"queryId":3,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false}} -->

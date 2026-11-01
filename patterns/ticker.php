@@ -15,7 +15,7 @@ $kitchenmess_cats = array(
 	array( 'Japanese', 'japanese' ),
 	array( 'Gluten-free', 'gluten-free' ),
 	array( 'Thai', 'thai' ),
-	array( 'Desserts', 'desserts' ),
+	array( 'Desserts', 'dessert' ),
 );
 ?>
 <!-- wp:group {"align":"full","className":"km-ticker","backgroundColor":"pink","textColor":"ink","style":{"spacing":{"padding":{"top":"1rem","bottom":"1rem"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
