@@ -15,13 +15,13 @@
 	<div class="wp-block-column is-vertically-aligned-center">
 		<!-- wp:paragraph {"className":"is-style-label"} --><p class="is-style-label">My story</p><!-- /wp:paragraph -->
 		<!-- wp:heading {"level":1} -->
-		<h1 class="wp-block-heading">Boardroom by day. <em>Soirées</em> by night.</h1>
+		<h1 class="wp-block-heading">Tech by day. <em>Soirées</em> by night.</h1>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"lede"} -->
 		<p class="has-lede-font-size">Hi, I'm Michelle: company director and tech executive, supper club host, and the cook behind every recipe on Kitchenmess.</p>
 		<!-- /wp:paragraph -->
 		<!-- wp:paragraph {"className":"km-cred"} -->
-		<p class="km-cred">500+ dinner parties across 8 cities, all from a very small kitchen.</p>
+		<p class="km-cred">The founder and chief hostess behind <a href="https://www.flirtyfridays.com">FlirtyFridays</a>, an intimate and convivial dinner party series designed for fostering authentic connections.</p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->
@@ -38,7 +38,7 @@
 <!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:heading --><h2 class="wp-block-heading">From Sydney sunshine to Hong Kong <em>hustle</em></h2><!-- /wp:heading -->
-	<!-- wp:paragraph --><p>I grew up under Sydney's clear blue skies and now live in Hong Kong, a city that never sleeps and never stops eating. My days are spent in boardrooms and growing tech companies in data and AI. My evenings belong to the stove, usually cooking for far more people than my kitchen was ever built for.</p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p>I grew up under Sydney's clear blue skies and now live in Hong Kong, a city that never sleeps and never stops eating. My days are spent growing tech companies in data and AI, with the odd board meeting. My evenings belong to the stove, usually cooking for far more people than my kitchen was ever built for.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph --><p>Kitchenmess started as a place to record my experiments, adventures and misadventures in the kitchen (hence the name). It has grown into a collection of healthy, big-flavour recipes for people like me: busy, hungry, and keen to put something on the table that looks like it took far longer than it did.</p><!-- /wp:paragraph -->
 	<!-- wp:paragraph --><p>No culinary school here. I have a double degree in Finance and Law, a stint as a MasterChef contestant in 2015 (terrifying), and years of feeding friends and strangers at my supper clubs. Every recipe is tested in my own tiny kitchen, so if I can pull it off on a Tuesday night, so can you.</p><!-- /wp:paragraph -->
 </div>
