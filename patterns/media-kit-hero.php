@@ -17,7 +17,7 @@
 	<!-- wp:buttons -->
 	<div class="wp-block-buttons">
 		<!-- wp:button --><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#contact">Start a project</a></div><!-- /wp:button -->
-		<!-- wp:button {"className":"is-style-outline"} --><div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#add-media-kit-pdf">Download media kit (PDF)</a></div><!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline"} --><div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#contact">Request the full media kit</a></div><!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->
 </div>

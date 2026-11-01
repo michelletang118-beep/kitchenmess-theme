@@ -34,7 +34,7 @@ Always try a new theme on a staging copy first. Most hosts (SiteGround, Kinsta, 
 | Page | How |
 | --- | --- |
 | Home | Uses the home template automatically (hero, recipes, gear shelf, supper club, newsletter). Edit it under **Appearance → Editor → Templates → Front Page**. |
-| Work with me | Edit the existing page, choose the **Wide page (no title)** template, delete the old content and insert the pattern **Work with me (full media kit page)**. Fill in your real numbers and prices. |
+| Work with me | Edit the existing page, choose the **Wide page (no title)** template, delete the old content and insert the pattern **Work with me (full media kit page)**. Fill in your prices. The page shows no public stats; send your audience numbers in a private PDF media kit when brands ask. |
 | Kitchen tools | New page with slug `kitchen-tools`, template **Wide page (no title)**, pattern **Kitchen tools page**. Paste your affiliate links into the buttons. |
 | Affiliate disclosure | New page with slug `affiliate-disclosure`, pattern **Affiliate disclosure page**. |
 | Recipes | The menu links to `/recipes/`. Either set **Settings → Reading → Posts page** to a page called Recipes, or change the menu link. |
@@ -56,7 +56,7 @@ Links with the CSS class `aff` automatically get `rel="sponsored nofollow noopen
 
 ## Before going live
 
-- Replace the placeholder photos, brand names, stats (00K) and prices (HK$ —) in the patterns.
+- Replace the placeholder photos, brand names and prices (HK$ —) in the patterns.
 - Set the menu links in **Appearance → Editor → Navigation** if your page slugs differ.
 - Test the home page, one recipe post and Work With Me on a phone.
 - Run [PageSpeed Insights](https://pagespeed.web.dev/) on staging and compare with the live site.

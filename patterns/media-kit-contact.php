@@ -13,7 +13,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"textColor":"white"} --><h2 class="wp-block-heading has-white-color has-text-color">Let's make a <em>delicious</em> mess</h2><!-- /wp:heading -->
-			<!-- wp:paragraph --><p>Email me at <a href="mailto:michelle@kitchenmess.com" style="color:inherit">michelle@kitchenmess.com</a> or use the form.</p><!-- /wp:paragraph -->
+			<!-- wp:paragraph --><p>Email me at <a href="mailto:michelle@kitchenmess.com" style="color:inherit">michelle@kitchenmess.com</a> or use the form. Ask for the full media kit and I'll send audience numbers and past results privately.</p><!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
 		<!-- wp:column {"className":"km-form"} -->

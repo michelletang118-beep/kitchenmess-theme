@@ -3,7 +3,7 @@
  * Title: Media kit: audience and brand fit
  * Slug: kitchenmess/media-kit-audience
  * Categories: kitchenmess-brands
- * Description: Who reads Kitchenmess and which brands fit. Replace the audience lines with your GA4 data.
+ * Description: Who reads Kitchenmess and which brands fit. Qualitative only; numbers stay in the private media kit.
  */
 ?>
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"},"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}}}} -->
@@ -12,8 +12,9 @@
 	<div class="wp-block-column">
 		<!-- wp:heading --><h2 class="wp-block-heading">Who's <em>reading</em></h2><!-- /wp:heading -->
 		<!-- wp:list {"className":"is-style-dash"} -->
-		<ul class="wp-block-list is-style-dash"><!-- wp:list-item --><li>Top countries: Hong Kong, US, UK, Singapore, Australia (update from GA4)</li><!-- /wp:list-item --><!-- wp:list-item --><li>Mostly women 25 to 44 who cook at home several times a week</li><!-- /wp:list-item --><!-- wp:list-item --><li>Interested in seafood, Asian cooking, entertaining and good kitchen tools</li><!-- /wp:list-item --><!-- wp:list-item --><li>Supper club guests: food lovers, hosts and professionals in Hong Kong</li><!-- /wp:list-item --></ul>
+		<ul class="wp-block-list is-style-dash"><!-- wp:list-item --><li>Based in Hong Kong, with readers across Asia, the US, the UK and Australia</li><!-- /wp:list-item --><!-- wp:list-item --><li>Home cooks who want restaurant results at home</li><!-- /wp:list-item --><!-- wp:list-item --><li>Interested in seafood, Asian cooking, entertaining and good kitchen tools</li><!-- /wp:list-item --><!-- wp:list-item --><li>Supper club guests: food lovers, hosts and professionals in Hong Kong</li><!-- /wp:list-item --></ul>
 		<!-- /wp:list -->
+		<!-- wp:paragraph {"fontSize":"small","textColor":"muted"} --><p class="has-muted-color has-text-color has-small-font-size">Audience numbers and past campaign results are in the full media kit. <a href="#contact">Ask for a copy</a>.</p><!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->
 	<!-- wp:column -->
